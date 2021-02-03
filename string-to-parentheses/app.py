@@ -5,6 +5,7 @@ def stringToParentheses(inputString):
     uniqueCharacters = dict()
 
     # determine unique characters
+    inputString = inputString.lower()
     for character in inputString:
         if character in uniqueCharacters:
             uniqueCharacters.update({character: 0})
