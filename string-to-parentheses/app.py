@@ -1,7 +1,6 @@
 def stringToParentheses(inputString):
     if not(bool(inputString)):
-        print('Invalid input')
-        return
+        return 'Invalid input'
 
     uniqueCharacters = dict()
 
